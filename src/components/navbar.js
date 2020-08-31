@@ -5,10 +5,10 @@ import { CgMenuRight, CgClose } from "react-icons/cg";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-red-700 p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-red-600 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link to={`/`} className="font-semibold text-xl tracking-tight">
-          Synthack v1.0
+          <span role="img" aria-label="emoji">🔥</span> Synthax v1.0
         </Link>
       </div>
       <div className="block lg:hidden">
@@ -56,7 +56,7 @@ const Navbar = () => {
         <div>
           <a
             href="/"
-            className="animate-bounce inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-700 hover:bg-white mt-4 lg:mt-0"
+            className="animate-bounce inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-600 hover:bg-white mt-4 lg:mt-0"
           >
             Apply Now!
           </a>

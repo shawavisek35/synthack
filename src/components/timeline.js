@@ -2,8 +2,8 @@ import React from "react";
 
 const Timeline = () => {
     return (
-        <div className="container mx-auto px-10 pt-5 ">
-            <h1 className="flex text-5xl justify-center">Timeline</h1>
+        <div className="container mx-auto px-10 my-10">
+            <h1 className="shadow-lg lg:shadow-none md:shadow-none rounded mx-4 my-6 lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center text-red-700 ">Timeline</h1>
             <div className="grid-rows-1">
                 
                 <div className="flex justify-start">
