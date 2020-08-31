@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <h1 className="my-6 lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center">
-        <span role="img" aria-label="emoji">
+        <span className="animate-pulse" role="img" aria-label="emoji">
           🔥
         </span>{" "}
         Synthax
