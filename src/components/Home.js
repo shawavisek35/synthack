@@ -1,4 +1,5 @@
 import React from "react";
+import Timeline from "./timeline";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           remaining essentially unchanged.
         </p>
       </div>
+      <Timeline />
     </div>
   );
 };

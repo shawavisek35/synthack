@@ -1,7 +1,6 @@
 import React from "react";
 import './assets/App.css';
 import Navbar from './components/navbar.js'
-import Timeline from "./components/timeline";
 import "./assets/App.css";
 import { Switch, Route } from "react-router";
 
@@ -15,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <header><Navbar/></header>
-        <Timeline />
       <main className="container mx-auto my-6 lg:shadow-2xl md:shadow-md sm:shadow-sm rounded">
         <Switch>
           {routes.map((r) => (
