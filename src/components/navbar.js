@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="flex items-center justify-between flex-wrap bg-red-700 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-xl tracking-tight">Synthack</span>
+        <Link to={`/`} className="font-semibold text-xl tracking-tight">Synthack</Link>
       </div>
       <div className="block lg:hidden">
         <button
