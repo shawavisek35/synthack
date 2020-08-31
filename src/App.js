@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Rules from "./components/Rules";
 import GettingStarted from "./components/GettingStarted";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,14 +15,14 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main className="container mx-10 my-6">
+      <main className="container mx-auto my-6 lg:shadow-2xl md:shadow-md sm:shadow-sm rounded">
         <Switch>
           {routes.map((r) => (
-            <Route exact={r.exact} path={r.path} component={r.component} />
+            <Route key={r.path} exact={r.exact} path={r.path} component={r.component} />
           ))}
         </Switch>
       </main>
-      <footer>This is footer</footer>
+      <footer><Footer/></footer>
     </div>
   );
 }
