@@ -3,9 +3,9 @@ import "./assets/App.css";
 import Navbar from "./components/navbar.js";
 import { Switch, Route } from "react-router";
 
-import Home from "./components/Home"
-import Rules from "./components/Rules"
-import GettingStarted from "./components/GettingStarted"
+import Home from "./components/Home";
+import Rules from "./components/Rules";
+import GettingStarted from "./components/GettingStarted";
 import About from "./components/About";
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main>
+      <main className="container mx-10 my-6">
         <Switch>
           {routes.map((r) => (
-            <Route exact={r.exact} path={r.path} component={r.component}/>
+            <Route exact={r.exact} path={r.path} component={r.component} />
           ))}
         </Switch>
       </main>
