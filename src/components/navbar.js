@@ -60,7 +60,7 @@ const Navbar = () => {
 export default Navbar;
 
 const NavLinks = [
-  { path: "/gettingStarted", name: "GettingStarted" },
+  { path: "/gettingStarted", name: "Getting Started" },
   { path: "/rules", name: "Rules" },
   { path: "/about", name: "About" },
 ];
