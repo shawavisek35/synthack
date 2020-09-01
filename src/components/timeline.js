@@ -3,7 +3,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <div className="mx-auto px-10 my-5">
-      <h1 className="rounded mx-4 my-6 lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center text-red-700 ">
+      <h1 className="balsamiq rounded mx-4 my-6 lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center ">
         Timeline
       </h1>
       <div className="grid grid-rows-4 gap-4 mx-auto">

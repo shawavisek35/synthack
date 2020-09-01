@@ -17,7 +17,7 @@ const Navbar = () => {
           <span role="img" aria-label="emoji">
             🔥
           </span>{" "}
-          Synthax v1.0
+          Synthax
         </Link>
       </div>
       <div className="block lg:hidden">

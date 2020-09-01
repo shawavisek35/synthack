@@ -2,6 +2,7 @@ import React from "react";
 import './assets/App.css';
 import Navbar from './components/navbar.js'
 import "./assets/App.css";
+import "./assets/timeline.css";
 import { Switch, Route } from "react-router";
 
 import Home from "./components/Home";

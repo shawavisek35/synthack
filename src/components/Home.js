@@ -1,5 +1,6 @@
 import React from "react";
-import Timeline from "./timeline";
+// import Timeline from "./timeline";
+import newTimeline from "./newTimeline";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
           {" "}
           <strong>DSC-CIEM</strong> in collaboration with{" "}
           <strong>MLSA-CIEM</strong> and <strong>Palinoia</strong> is happy to
-          announce it's first Open Source coding fest, Synthax v1.0
+          announce it's first Open Source coding fest, Synthax
         </p>
         <p className="text-xl mt-2">
           This month long journey is the perfect opportunity to brush up on your
@@ -32,7 +33,7 @@ const Home = () => {
           </span>
         </p>
       </div>
-      <Timeline />
+      <newTimeline />
     </div>
   );
 };

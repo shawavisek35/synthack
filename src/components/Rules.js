@@ -3,12 +3,12 @@ import React from "react";
 const Rules = () => {
   return (
     <div>
-      <h1 className="shadow-lg lg:shadow-none md:shadow-none rounded mx-4 my-6 lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center text-red-700">
+      <h1 className="balsamiq shadow-lg lg:shadow-none md:shadow-none rounded mx-4 my-6 lg:text-6xl md:text-6xl text-4xl text-center">
         Rules
       </h1>
-      <ul class="list-decimal mx-8">
+      <ul class="list-disc mx-8">
         {rules.map((rule) => (
-          <li className="ml-2 text-xl mt-4" key={rule}>
+          <li className="balsamiq ml-2 text-2xl my-8" key={rule}>
             {rule}
           </li>
         ))}
