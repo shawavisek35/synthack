@@ -71,5 +71,5 @@ export default Navbar;
 const NavLinks = [
   { path: "/gettingStarted", name: "Getting Started" },
   { path: "/rules", name: "Rules" },
-  { path: "/about", name: "About" },
+  { path: "/faq", name: "FAQ" },
 ];

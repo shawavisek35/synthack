@@ -7,7 +7,7 @@ import { Switch, Route } from "react-router";
 import Home from "./components/Home";
 import Rules from "./components/Rules";
 import GettingStarted from "./components/GettingStarted";
-import About from "./components/About";
+import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 
 function App() {
@@ -31,6 +31,6 @@ export default App;
 const routes = [
   { path: "/rules", component: Rules },
   { path: "/gettingStarted", component: GettingStarted },
-  { path: "/about", component: About },
+  { path: "/faq", component: FAQ },
   { path: "/", component: Home, exact: true },
 ];
