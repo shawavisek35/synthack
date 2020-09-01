@@ -11,14 +11,13 @@ const Apply = () => {
           href="https://forms.gle/BWUTatoT57213VDs6"
           className="bg-white rounded shadow-xl text-center py-3 text-4xl border border-transparent hover:border-4 hover:border-white hover:bg-red-600 hover:text-white cursor-pointer"
         >
-          <h1>Call for Projects</h1>
+          <h1>Submit you Project</h1>
         </a>
-        <a
-          href="https://forms.gle/fnVWXgvG6ZSajVbN7"
+        <div
           className="bg-white rounded shadow-xl text-center py-3 text-4xl border border-transparent hover:border-4 hover:border-white hover:bg-red-600 hover:text-white cursor-pointer"
         >
-          <h1>Participants</h1>
-        </a>
+          <h1>Students Application</h1>
+        </div>
       </div>
     </div>
   );
