@@ -18,8 +18,8 @@ const Home = () => {
         <p className="text-xl mt-2">
           {" "}
           <strong>DSC-CIEM</strong> in collaboration with{" "}
-          <strong>MLSA-CIEM</strong> and Palinoia is happy to announce it's
-          first Open Source coding fest, Synthax v1.0
+          <strong>MLSA-CIEM</strong> and <strong>Palinoia</strong> is happy to
+          announce it's first Open Source coding fest, Synthax v1.0
         </p>
         <p className="text-xl mt-2">
           This month long journey is the perfect opportunity to brush up on your
@@ -32,7 +32,7 @@ const Home = () => {
           </span>
         </p>
       </div>
-      <Timeline/>
+      <Timeline />
     </div>
   );
 };
