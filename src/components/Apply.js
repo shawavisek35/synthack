@@ -16,7 +16,7 @@ const Apply = () => {
         <div
           className="bg-gray-300 rounded text-gray-100 shadow-xl text-center py-3 text-4xl border border-transparent hover:text-white cursor-not-allowed"
         >
-          <h1>Students Application (6th Sept)</h1>
+          <h1>Students Application</h1>
         </div>
       </div>
     </div>
