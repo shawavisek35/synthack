@@ -7,8 +7,17 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-red-600 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <Link to={`/`} className="font-semibold text-xl tracking-tight">
-          <span role="img" aria-label="emoji">🔥</span> Synthax v1.0
+        <Link
+          to={`/`}
+          className="font-semibold text-xl tracking-tight"
+          onClick={() => {
+            setToggle(false);
+          }}
+        >
+          <span role="img" aria-label="emoji">
+            🔥
+          </span>{" "}
+          Synthax v1.0
         </Link>
       </div>
       <div className="block lg:hidden">
@@ -54,12 +63,15 @@ const Navbar = () => {
           ))}
         </div>
         <div>
-          <a
-            href="/"
+          <Link
+            to="/apply"
+            onClick={() => {
+              setToggle(false);
+            }}
             className="animate-bounce inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-600 hover:bg-white mt-4 lg:mt-0"
           >
             Apply Now!
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
@@ -69,7 +81,7 @@ const Navbar = () => {
 export default Navbar;
 
 const NavLinks = [
-  { path: "/gettingStarted", name: "Getting Started" },
+  // { path: "/gettingStarted", name: "Getting Started" },
   { path: "/rules", name: "Rules" },
   { path: "/faq", name: "FAQ" },
 ];

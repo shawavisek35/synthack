@@ -9,7 +9,7 @@ const Rules = () => {
       <ol class="list-decimal mx-8">
         {rules.map((rule) => (
           <li className="ml-2 text-xl mt-4" key={rule}>
-            {rule} <hr className="mt-2 border-double border-2 border-red-700" />
+            {rule} <hr className="mt-2 border-double border-1 border-red-700" />
           </li>
         ))}
       </ol>

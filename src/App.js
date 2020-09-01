@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Rules from "./components/Rules";
 import GettingStarted from "./components/GettingStarted";
 import FAQ from "./components/FAQ";
+import Apply from "./components/Apply";
 import Footer from "./components/Footer";
 
 function App() {
@@ -32,5 +33,6 @@ const routes = [
   { path: "/rules", component: Rules },
   { path: "/gettingStarted", component: GettingStarted },
   { path: "/faq", component: FAQ },
+  { path: "/apply", component: Apply },
   { path: "/", component: Home, exact: true },
 ];
