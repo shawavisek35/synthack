@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <div>
       <h1 className="shadow-lg lg:shadow-none md:shadow-none rounded mx-4 my-6 lg:text-6xl md:text-6xl sm:text-4xl text-4xl text-center text-red-700">
-        Frquently Asked Questions
+        Frequently Asked Questions
       </h1>
       <div className={`grid grid-rows-${FAQs.length} py-4 gap-4 mx-4 dead-center`}>
         {FAQs.map((item) => (
@@ -43,6 +43,26 @@ const FAQs = [
     q: "Whom should I contact in case I have any doubt or dispute?",
     a:
       "You should contact the mentor or any of the organisers on Discord channel. The college authority is nowhere responsible in resolving your doubts or disputes.",
+  },
+  {
+    q: "Do I need to have extensive programming/coding experience to get started?",
+    a: "Absolutely NOT! There are projects in varying difficulty levels and if you are a beginner, you will still be welcomed.",
+  },
+  {
+    q: "Do I need to know how GitHub works or any other Version Control System will work?",
+    a: "Since the projects are hosted on GitHub, we expect that you have the knowledge of how GitHub works.",
+  },
+  { 
+    q: "What would happen if participant couldn't complete the task assigned by their mentors?",
+    a: "If not in the time period, they are not qualified for certificates",
+  },
+  {
+    q: "Will participant get participation certificate if they leave the competition in the middle or if they cannot complete the task?",
+    a: "No. To receive the certificates one must complete the tasks within the time period given by the mentor",
+  },
+  {
+    q: "What are the perks of participating in this event?"
+    a: "All the qualified participants will receive a certificate and top performers will receive special schwag",
   },
   {
     q: ` Do I need to pay any fees to take part in this event? `,
