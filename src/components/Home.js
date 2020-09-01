@@ -1,6 +1,6 @@
 import React from "react";
-// import Timeline from "./timeline";
-import newTimeline from "./newTimeline";
+import Timeline from "./timeline";
+// import newTimeline from "./newTimeline";
 
 const Home = () => {
   return (
@@ -33,7 +33,7 @@ const Home = () => {
           </span>
         </p>
       </div>
-      <newTimeline />
+      <Timeline />
     </div>
   );
 };
