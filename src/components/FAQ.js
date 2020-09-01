@@ -61,7 +61,7 @@ const FAQs = [
     a: "No. To receive the certificates one must complete the tasks within the time period given by the mentor",
   },
   {
-    q: "What are the perks of participating in this event?"
+    q: "What are the perks of participating in this event?",
     a: "All the qualified participants will receive a certificate and top performers will receive special schwag",
   },
   {
