@@ -6,13 +6,13 @@ const Rules = () => {
       <h1 className="shadow-lg lg:shadow-none md:shadow-none rounded mx-4 my-6 lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center text-red-700">
         Rules
       </h1>
-      <ol class="list-decimal mx-8">
+      <ul class="list-decimal mx-8">
         {rules.map((rule) => (
           <li className="ml-2 text-xl mt-4" key={rule}>
-            {rule} <hr className="mt-2 border-double border-1 border-red-700" />
+            {rule}
           </li>
         ))}
-      </ol>
+      </ul>
     </div>
   );
 };

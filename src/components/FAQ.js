@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <div>
       <h1 className="shadow-lg lg:shadow-none md:shadow-none rounded mx-4 my-6 lg:text-6xl md:text-6xl sm:text-4xl text-4xl text-center text-red-700">
-        Frquently Asked Questions
+        Frequently Asked Questions
       </h1>
       <div className={`grid grid-rows-${FAQs.length} py-4 gap-4 mx-4 dead-center`}>
         {FAQs.map((item) => (
