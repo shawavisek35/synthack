@@ -25,7 +25,7 @@ const rules = [
   "More than one Proposal is not allowed",
   "If more than one proposal is given then only the first one will be taken under consideration.",
   "Before asking a mentor about contributing early, please check if they have already given details or answered a question about it in the project details or comments in the Teams App.",
-  "After the conclusion of the event on ___________ the leaderboards of the mentors would be taken into consideration by the organizing team for the final evaluation of the participants and the result would be declared by ___________.",
+  "After the conclusion of the event on 30th September the review of the mentors would be taken into consideration by the organizing team for the final evaluation of the participants and the result would be declared by 2nd October.",
   "The decision taken by the organizing team will be taken as the final one no further considerations will be done.",
 ];
 
