@@ -1,9 +1,9 @@
 import React from "react";
-import NewTimeline from "./newTimeline";
+import Timeline from "./timeline";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container px-6">
       <h1 className="my-6 lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center">
         <span className="animate-pulse" role="img" aria-label="emoji">
           🔥
@@ -32,7 +32,10 @@ const Home = () => {
           </span>
         </p>
       </div>
-      <NewTimeline />
+      <h1 className="animate-bounce balsamiq rounded lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center mt-5">
+        Timeline
+      </h1>
+      <Timeline />
     </div>
   );
 };
