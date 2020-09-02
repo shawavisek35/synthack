@@ -3,7 +3,7 @@ export const Timelines = [
         status: "Submit",
         name : "Project Submission",
         link : "https://forms.gle/ev5vRocg6VX9Zirf7",
-        time : "3rd sept - 6th sept"
+        time : "2nd sept - 6th sept"
     },
     {
         status : "Register",
