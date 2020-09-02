@@ -6,6 +6,7 @@ const Team = () => {
         Team
       </h1>
       <div style={{ marginTop: "2%" }}>
+    <a href="https://studentambassadors.microsoft.com/en-US/profile/4447/">
         <img
           src={require("./Images/sagnik.png")}
           style={{
@@ -21,9 +22,9 @@ const Team = () => {
         <br />
 
         <h1 style={{ textAlign: "left", fontSize: "2vw" }}>
-          <a href="https://studentambassadors.microsoft.com/en-US/profile/4447/">
+          
             <b>Sagnik Chattopadhyaya</b>
-          </a>
+          
         </h1>
 
         <p style={{ textAlign: "left" }}>
@@ -34,9 +35,12 @@ const Team = () => {
           <br /> I plan on integrating ML, Web and AI in the future for the
           betterment of mankind.
         </p>
+
+        </a>
       </div>
 
       <div style={{ marginTop: "8%", marginBottom: "10%" }}>
+        <a href="http://avisekcode.netlify.app/">
         <img
           src={require("./Images/avisek.png")}
           style={{
@@ -53,9 +57,9 @@ const Team = () => {
         <br />
 
         <h1 style={{ textAlign: "left", fontSize: "2vw" }}>
-          <a href="http://avisekcode.netlify.app/">
+          
             <b>Avisek Shaw</b>
-          </a>
+          
         </h1>
 
         <p style={{ textAlign: "left" }}>
@@ -64,6 +68,7 @@ const Team = () => {
           <br /> Data Science enthusiast and a competitive programmer.
           <br /> Love to automate things through scripting.
         </p>
+        </a>
       </div>
     </div>
   );
