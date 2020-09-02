@@ -1,6 +1,6 @@
 import React from "react";
-import './assets/App.css';
-import Navbar from './components/navbar.js'
+import "./assets/App.css";
+import Navbar from "./components/navbar.js";
 import "./assets/App.css";
 import "./assets/timeline.css";
 import { Switch, Route } from "react-router";
@@ -11,19 +11,29 @@ import GettingStarted from "./components/GettingStarted";
 import FAQ from "./components/FAQ";
 import Apply from "./components/Apply";
 import Footer from "./components/Footer";
+import Team from "./components/Team";
 
 function App() {
   return (
     <div className="App">
-      <header><Navbar/></header>
+      <header>
+        <Navbar />
+      </header>
       <main className="container mx-auto my-6 lg:shadow-2xl md:shadow-md sm:shadow-sm rounded">
         <Switch>
           {routes.map((r) => (
-            <Route key={r.path} exact={r.exact} path={r.path} component={r.component} />
+            <Route
+              key={r.path}
+              exact={r.exact}
+              path={r.path}
+              component={r.component}
+            />
           ))}
         </Switch>
       </main>
-      <footer><Footer/></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
@@ -36,4 +46,5 @@ const routes = [
   { path: "/faq", component: FAQ },
   { path: "/apply", component: Apply },
   { path: "/", component: Home, exact: true },
+  { path: "/", component: Team },
 ];

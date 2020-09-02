@@ -84,4 +84,5 @@ const NavLinks = [
   // { path: "/gettingStarted", name: "Getting Started" },
   { path: "/rules", name: "Rules" },
   { path: "/faq", name: "FAQ" },
+  { path: "/team", name: "Team" },
 ];
