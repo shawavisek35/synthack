@@ -15,13 +15,13 @@ export const Timelines = [
         status: "Coming soon",
         name : "Student Application",
         link : "",
-        time : "8th sept - 11th sept"
+        time : "7th sept - 10th sept"
     },
     {
         status: "Coming soon",
         name : "Coding Period",
         link : "",
-        time : "13th sept - 30th sept"
+        time : "12th sept - 30th sept"
     },
     {
         status: "Coming soon",
