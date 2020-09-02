@@ -4,14 +4,14 @@ import "../assets/timeline.css";
 
 const Timeline = () => {
   return (
-    <ul class="cbp_tmtimeline">
+    <ul className="cbp_tmtimeline">
       {
         Timelines.map((timeline) => {
           return (
-          <li>
+          <li className="my-5">
             <time className="cbp_tmtime text-sm md:text-lg" datetime="2013-04-10 18:30"><span>{timeline.time}</span></time>
-            <div class="cbp_tmicon cbp_tmicon-phone"></div>
-            <div class="cbp_tmlabel">
+            <div className="cbp_tmicon cbp_tmicon-phone"></div>
+            <div className="cbp_tmlabel">
               <h2 className="text-2xl">{timeline.name}</h2>
               <p><a href={timeline.link} target="_blank" rel="noopener noreferrer"><button className="bg-yellow-500 hover:bg-yellow-800 text-white font-bold py-2 px-4 my-4 rounded-full">{timeline.status}</button></a></p>
             </div>
