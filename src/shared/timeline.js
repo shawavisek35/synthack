@@ -9,7 +9,7 @@ export const Timelines = [
         status : "Register",
         name : "Understanding the program",
         link : "",
-        time : "7th sept"
+        time : "6th sept"
     },
     {
         status: "Coming soon",
