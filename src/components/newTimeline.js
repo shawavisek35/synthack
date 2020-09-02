@@ -1,56 +1,29 @@
 import React from "react";
-const newTimeline = () => {
+
+const NewTimeline = () => {
   return (
-    <div>
-      {/* The Timeline */}
-      <ul className="timeline">
-        {/* Item 1 */}
-        <li>
-          <div className="direction-r">
-            <div className="flag-wrapper">
-              <span className="flag">Freelancer</span>
-              <span className="time-wrapper">
-                <span className="time">2013 - present</span>
-              </span>
-            </div>
-            <div className="desc">
-              My current employment. Way better than the position before!
-            </div>
+    <div className="mx-auto">
+      <h1 className="balsamiq rounded lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center ">
+        Timeline
+      </h1>
+      <div className="timeline w-4/5 lg:mx-auto w-full lg:w-1/2">
+        {timelinez.map((t) => (
+          <div className="time" key={t.title}>
+            <h1 className="balsamiq text-4xl bg-white rounded shadow-xl text-center">{t.title}</h1>
+            <p className="text-2xl balsamiq text-right text-red-600">{t.date}</p>
           </div>
-        </li>
-        {/* Item 2 */}
-        <li>
-          <div className="direction-l">
-            <div className="flag-wrapper">
-              <span className="flag">Apple Inc.</span>
-              <span className="time-wrapper">
-                <span className="time">2011 - 2013</span>
-              </span>
-            </div>
-            <div className="desc">
-              My first employer. All the stuff I've learned and projects I've
-              been working on.
-            </div>
-          </div>
-        </li>
-        {/* Item 3 */}
-        <li>
-          <div className="direction-r">
-            <div className="flag-wrapper">
-              <span className="flag">Harvard University</span>
-              <span className="time-wrapper">
-                <span className="time">2008 - 2011</span>
-              </span>
-            </div>
-            <div className="desc">
-              A description of all the lectures and courses I have taken and my
-              final degree?
-            </div>
-          </div>
-        </li>
-      </ul>
+        ))}
+      </div>
     </div>
   );
 };
 
-export default newTimeline;
+const timelinez = [
+  { title: "Project Submission", date: "2nd sept-5th sept" },
+  { title: "Understanding the Program", date: "6th sept" },
+  { title: "Student Application", date: "7th sept-10th sept" },
+  { title: "Coding Period", date: "12th sept-30th sept" },
+  { title: "Results", date: "1st Oct-2nd Oct" },
+];
+
+export default NewTimeline;
