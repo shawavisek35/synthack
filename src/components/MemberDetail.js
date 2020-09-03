@@ -28,7 +28,7 @@ const teamMembers = [
   },
 
   {
-    plink: "https://agnibesh.dev#",
+    plink: "https://agnibesh.dev",
     img: "agnibesh",
     name: "Agnibesh Mukherjee",
     role: "Website Team",
