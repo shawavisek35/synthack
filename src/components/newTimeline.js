@@ -19,8 +19,8 @@ const NewTimeline = () => {
 };
 
 const timelinez = [
-  { title: "Project Submission", date: "2nd sept-5th sept" },
-  { title: "Understanding the Program", date: "6th sept" },
+  { title: "Project Submission", date: "3rd sept-6th sept" },
+  { title: "Understanding the Program", date: "7th sept" },
   { title: "Student Application", date: "7th sept-10th sept" },
   { title: "Coding Period", date: "12th sept-30th sept" },
   { title: "Results", date: "1st Oct-2nd Oct" },
