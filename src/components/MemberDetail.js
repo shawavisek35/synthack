@@ -5,8 +5,8 @@ const teamMembers = [
     name: "Sagnik Chattopadhyaya",
     role: "Microsoft Learn Student Ambassador at CIEM, Kolkata.",
     into:
-      "I'm enthusiastic about coding and trying to automate my life 1% at a time.\
-      I plan on integrating ML, Web and AI in the future for the betterment of mankind.",
+      `I'm enthusiastic about coding and trying to automate my life 1% at a time.\
+      I plan on integrating ML, Web and AI in the future for the betterment of mankind.`,
   },
   {
     plink: "http://avisekcode.netlify.app/",
@@ -23,15 +23,15 @@ const teamMembers = [
     name: "Hasibul Islam",
     role: "Microsoft Learn Student Ambassador at CIEM, Kolkata.",
     into:
-      "I'm still a learner and exploring different technological fields everyday.\
-        Loves to code in Java and interested in AI and Web Development.",
+      `I'm still a learner and exploring different technological fields everyday.\
+        Loves to code in Java and interested in AI and Web Development.`,
   },
 
   {
     plink: "https://agnibesh.dev",
     img: "agnibesh",
     name: "Agnibesh Mukherjee",
-    role: "Website Team",
+    role: "Development Lead",
     into:
       "Computer Enthusiast and Javascript Ninja. I'm currently working @Newslaundry.com as a FullStack Development Intern.",
   },
@@ -40,16 +40,23 @@ const teamMembers = [
     plink: "#",
     img: "madhurima",
     name: "Madhurima Maji",
-    role: "Website team",
+    role: "Tech Lead",
     into:
       "ML enthusiast. REACT in practice. Competitive programmer. Looking for opportunities to do better for the society and upgrade myself.",
   },
-
+    {
+    plink: "#",
+    img: "sristi",
+    name: "Sristi Dakshit",
+    role: "Creative Lead",
+    into:
+      "AI ML enthusiast. Big time foodie. Part time bookworm. Hoping to bring a change in the community. Evolving everyday to #LearnMore. ",
+  },
   {
     plink: "#",
     img: "subhayu",
     name: "Subhayu Kumar Bala",
-    role: "Graphics team",
+    role: "Graphics Lead",
     into:
       "Hey, I'm an AI and Ethical Hacking enthusiast who loves to tinker with computers. I also have some interest in Computer Graphics.",
   },
@@ -58,18 +65,9 @@ const teamMembers = [
     plink: "#",
     img: "snehasis",
     name: "Snehashis Sarkar",
-    role: "Technical team",
+    role: "Tech",
     into:
       "Just getting started, curious about everything there is but specially Android and not at all shy to ask for help.",
-  },
-
-  {
-    plink: "#",
-    img: "sristi",
-    name: "Sristi Dakshit",
-    role: "Content Writer",
-    into:
-      "AI ML enthusiast. Big time foodie. Part time bookworm. Hoping to bring a change in the community. Evolving everyday to #LearnMore. ",
   },
 
   {
