@@ -1,71 +1,47 @@
 import React from "react";
+import teamMembers from "./MemberDetail";
 
 const Team = () => {
   return (
     <div className="container text-center">
-      <h1 className="balsamiq rounded lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center ">
+      <h1
+        className="balsamiq rounded lg:text-6xl md:text-6xl sm:text-5xl text-6xl text-center "
+        style={{ marginBottom: "2%" }}
+      >
         Team
       </h1>
-      <a href="https://studentambassadors.microsoft.com/en-US/profile/4447/">
-        <div
-          style={{ marginTop: "2%" }}
-          className="grid grid-cols-1 sm:grid-cols-2 px-10 text-center"
-        >
-          <div style={{ paddingLeft: "40%" }}>
-            <img
-              src={require("./Images/sagnik.png")}
-              style={{
-                height: "55%",
-                width: "55%",
-              }}
-              alt="Sagnik-img"
-              className="grid grid-cols-1"
-            ></img>
-          </div>
+      {teamMembers.map((i) => (
+        <a href={i.plink}>
+          <div
+            className="grid grid-cols-1 sm:grid-cols-2 px-10 text-center"
+            style={{ paddingBottom: "3%" }}
+          >
+            <div style={{ paddingLeft: "40%" }}>
+              <img
+                src={require(`./Images/${i.img}.png`)}
+                style={{
+                  height: "55%",
+                  width: "55%",
+                }}
+                alt="profile-img"
+                className="grid grid-cols-1"
+              ></img>
+            </div>
 
-          <div className="text-left">
-            <h1 className="mt-5">
-              <b className="text-2xl">Sagnik Chattopadhyaya</b>
-            </h1>
+            <div className="text-left">
+              <h1 className="mt-5">
+                <b className="text-2xl">{i.name}</b>
+              </h1>
 
-            <p className="text-l">
-              <em> Microsoft Learn Student Ambassador at CIEM, Kolkata.</em>
-              <br />
-              <br /> I'm enthusiastic about coding and trying to automate my
-              life 1% at a time.
-              <br /> I plan on integrating ML, Web and AI in the future for the
-              betterment of mankind.
-            </p>
+              <p className="text-l" style={{ paddingRight: "15%" }}>
+                <em> {i.role}</em>
+                <br />
+                <br /> {i.into}
+              </p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="http://avisekcode.netlify.app/">
-        <div className="grid grid-cols-1 sm:grid-cols-2 px-10 text-center my-10">
-          <div style={{ paddingLeft: "40%" }}>
-            <img
-              src={require("./Images/avisek.png")}
-              style={{
-                height: "55%",
-                width: "55%",
-              }}
-              alt="avisek-img"
-            ></img>
-          </div>
-
-          <div className="text-left">
-            <h1 className="mt-5 text-2xl">
-              <b>Avisek Shaw</b>
-            </h1>
-
-            <p className="text-l">
-              <em>Developer Student Clubs Lead at CIEM, kolkata.</em>
-              <br />
-              <br /> Data Science enthusiast and a competitive programmer.
-              <br /> Love to automate things through scripting.
-            </p>
-          </div>
-        </div>
-      </a>
+        </a>
+      ))}
     </div>
   );
 };
