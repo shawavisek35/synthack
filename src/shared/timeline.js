@@ -8,7 +8,7 @@ export const Timelines = [
     {
         status : "Register",
         name : "Understanding the program",
-        link : "",
+        link : "https://dsc.community.dev/e/mvjkyy/",
         time : "6th sept"
     },
     {
