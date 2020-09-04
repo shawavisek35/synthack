@@ -20,7 +20,7 @@ const Rules = () => {
 const rules = [
   "Only presently enrolled students of Calcutta Institute of Engineering and Management(CIEM),Kolkata are eligible to participate as Student.",
   "As a Mentor anyone is free to participate. But you can mentor only those projects that you submit",
-  "Submitting Project does not garuntee you participation as a Mentor, It depends on whether any student submits propasal on it or not.",
+  "Submitting Project does not guarantee your participation as a Mentor, it depends on whether any student submits propasal on it or not.",
   "All disputes are to be addressed to the Organizers directly. The College Authority isn't responsible for handling the disputes.",
   "Please note, applications sent after the deadline cannot be considered for judging.",
   "More than one Proposal as a student is not allowed. But you can definitely submit multiple projects.",
