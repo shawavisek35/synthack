@@ -7,7 +7,7 @@ export const Timelines = [
     },
     {
         status : "Register",
-        name : "Understanding the program",
+        name : "Workshop on Git and Github",
         link : "https://dsc.community.dev/e/mvjkyy/",
         time : "7th Sept"
     },
