@@ -102,5 +102,13 @@ export const GitProjects = [
         4.Add levels,
         5.Adding more words`,
         topic : "Python, AI/ML"
-    }
+    },
+    {
+        id : 13,
+        projectLink : "https://github.com/shawavisek35/synthack",
+        description : `This is the official website of Synthax- A coding Event specially designed for CIEM student to help them grow their skills in Open Source contribution
+        Improvements and modifications are welcome.`,
+        topic : "Web dev",
+    },
+    
 ]
