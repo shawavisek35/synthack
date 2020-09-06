@@ -12,6 +12,7 @@ import FAQ from "./components/FAQ";
 import Apply from "./components/Apply";
 import Footer from "./components/Footer";
 import Team from "./components/Team";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -46,5 +47,6 @@ const routes = [
   { path: "/faq", component: FAQ },
   { path: "/apply", component: Apply },
   { path: "/", component: Home, exact: true },
-  { path: "/", component: Team },
+  { path: "/team", component: Team },
+  { path: "/projects", component: Projects},
 ];
