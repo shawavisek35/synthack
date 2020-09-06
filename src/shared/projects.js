@@ -42,7 +42,7 @@ export const GitProjects = [
         id : 4,
         email : "palinoia.ciem@gmail.com",
         name : "Archan Ghosh",
-        projectLink : "https://github.com/ArchanGhosh/Synthax",
+        projectLink : "https://github.com/ArchanGhosh/Machine-Learning-and-Computer-Vision-",
         description : `1. ASL classification
         2. DCGAN Implementation`,
         topic : "Image Processing(Tensorflow)",
