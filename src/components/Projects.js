@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {GitProjects} from "../shared/projects";
-import {Accordion, Card, Button} from "react-bootstrap";
+
 
 function Projects()
 {
@@ -22,7 +22,7 @@ function Projects()
                                     <p className="px-10 py-4"><strong>Topic : </strong>{project.topic}</p>
                                     <p className="px-10 py-4"><strong>Description : </strong>{project.description}</p>
                                     <div className="my-4">
-                                        <a href={project.projectLink} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-10 my-4">View project</a>
+                                        <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mx-10 my-4">View project</a>
                                     </div>
                                 </div>
                             </div>
