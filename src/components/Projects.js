@@ -17,8 +17,6 @@ function Projects()
                                 <label className="block p-5 leading-normal cursor-pointer text-2xl project-name" for={project.id}>{project.projectLink.split("/")[4].split(".")[0]}</label>
                                 <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                                     <hr />
-                                    <p className="px-10 py-4"><strong>Project owner : </strong>{project.name}</p>
-                                    <p className="px-10 py-4"><strong>Email : </strong>{project.email}</p>
                                     <p className="px-10 py-4"><strong>Topic : </strong>{project.topic}</p>
                                     <p className="px-10 py-4"><strong>Description : </strong>{project.description}</p>
                                     <div className="my-4">
