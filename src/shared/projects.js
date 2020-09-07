@@ -28,7 +28,7 @@ export const GitProjects = [
     },
     {
         id : 4,
-        projectLink : "https://github.com/ArchanGhosh/Synthax",
+        projectLink : "https://github.com/ArchanGhosh/Machine-Learning-and-Computer-Vision",
         description : `1. ASL classification
         2. DCGAN Implementation`,
         topic : "Image Processing(Tensorflow)",
