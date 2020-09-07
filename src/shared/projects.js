@@ -166,19 +166,19 @@ export const GitProjects = [
         topic : "C#, Web App",
     },
     {
-        id : 22,
+        id : 23,
         projectLink : "https://github.com/sagnik20/QR-Code-Generator",
         description : `An GUI based QR code generator using Python.`,
         topic : "Python, GUI",
     },
     {
-        id : 23,
+        id : 24,
         projectLink : "https://github.com/sagnik20/ML-WebApp-using-Streamlit",
         description : `An webapp to showcase a Machine Learning model with an interactive interface.`,
         topic : "Machine Learning, Streamlit, Python, WebApp, Docker",
     },
     {
-        id : 24,
+        id : 25,
         projectLink : "https://github.com/abhishek-max/Avtaar.git",
         description : `Web app development and Mobile Application: Avtaar
         
