@@ -13,16 +13,14 @@ const Apply = () => {
         >
           <h1>Submit you Project</h1>
         </a>
-        <div
-          className="bg-red-600 rounded text-gray-100 shadow-xl text-center py-3 text-4xl border border-transparent hover:text-white"
-        >
+        
           <a
           href="https://forms.gle/mYZXAnxuoWxHVNHH6"
           className="bg-white rounded shadow-xl text-center py-3 text-4xl border border-transparent hover:border-4 hover:border-white hover:bg-red-600 hover:text-white cursor-pointer"
           > 
           <h1>Students Application</h1>
           </a>
-        </div>
+
       </div>
     </div>
   );
