@@ -53,9 +53,9 @@ export const GitProjects = [
     },
     {
         id : 8,
-        projectLink : "https://github.com/avinashkranjan/Competitive-Programming-Algorithms",
-        description : `The goal of this project is to have in a single place all possible algorithms and data structures - in multiple languages. This can be great for beginners too to learn and contribute to Open Source Projects.`,
-        topic : "Competitive-Programming-Algorithms",
+        projectLink : "https://github.com/avinashkranjan/Mask-Detector",
+        description : `As declared by WHO the COVID-19 is going to remain around for about 2 years. So proper precautions are going to be necessary. This ML python based surveillance system detects if people/person are/is not wearing mask and follows them wherever reachable and plays beeping sound if a person is found without a mask. `,
+        topic : "Python, OpenCV, Tensorflow, keras",
     },
     {
         id : 9,
@@ -110,5 +110,82 @@ export const GitProjects = [
         Improvements and modifications are welcome.`,
         topic : "Web dev",
     },
-    
+    {
+        id : 14,
+        projectLink : "https://github.com/avinashkranjan/recess",
+        description : `A Social Media Platform for students to share their experience/knowledge they gained in their free time.`,
+        topic : "ReactJS, firebase",
+    },
+    {
+        id : 15,
+        projectLink : "https://github.com/avinashkranjan/lifeMEDeasy",
+        description : `Automate Healthcare and make Health facilities available to everyone regardless of their limitations.`,
+        topic : "ReactJS, Django",
+    },
+    {
+        id : 16,
+        projectLink : "https://github.com/avinashkranjan/Machine-Learning",
+        description : `Machine-Learning Blog Using github fastpages. 
+        Contributing to this project will help you learn github fastpages .`,
+        topic : "Github fastpages",
+    },
+    {
+        id : 17,
+        projectLink : "https://github.com/avinashkranjan/Covid-19-Informer",
+        description : `Covid-19 Informer - One Place for all the stats around the world in an Interactive and Graphical way.`,
+        topic : "ReactJS",
+    },
+    {
+        id : 18,
+        projectLink : "https://github.com/sagnik20/Email-Scraper",
+        description : `This file scrapes all the email addresses available in a website. Just input the link to the to the website and run this in Google Colab. It would give you results in csv format, downloaded directly in your local machine.`,
+        topic : "Python, BeautifulSoup, pandas",
+    },
+    {
+        id : 19,
+        projectLink : "https://github.com/sagnik20/Correspondance-Management-System",
+        description : `A CRUD application to manage office Correspondence.`,
+        topic : "PhP, WebApp",
+    },
+    {
+        id : 20,
+        projectLink : "https://github.com/sagnik20/Python-Bot-for-Whatsapp-AutoReply-for-New-Year-Wishes",
+        description : `A Python Bot that Auto replies new year wishes`,
+        topic : "Python, Selenium, Automation",
+    },
+    {
+        id : 21,
+        projectLink : "https://github.com/sagnik20/ToDoList-using-Blazor",
+        description : `A to do list using Blazor WebAssembly`,
+        topic : "C#, Web App",
+    },
+    {
+        id : 22,
+        projectLink : "https://github.com/sagnik20/Contoso-University",
+        description : `A University management system build while learning from documentations.`,
+        topic : "C#, Web App",
+    },
+    {
+        id : 22,
+        projectLink : "https://github.com/sagnik20/QR-Code-Generator",
+        description : `An GUI based QR code generator using Python.`,
+        topic : "Python, GUI",
+    },
+    {
+        id : 23,
+        projectLink : "https://github.com/sagnik20/ML-WebApp-using-Streamlit",
+        description : `An webapp to showcase a Machine Learning model with an interactive interface.`,
+        topic : "Machine Learning, Streamlit, Python, WebApp, Docker",
+    },
+    {
+        id : 24,
+        projectLink : "https://github.com/abhishek-max/Avtaar.git",
+        description : `Web app development and Mobile Application: Avtaar
+        
+        Avtaar will be an online platform or forum to connect people in need of help with NGOs and other organisations. On this platform, people can share their problems anonymously without fear of being judged.There will be a multi-level login portal for Users. people who can use the forum to share problems anonymously NGOs
+        Psychiatrist/Other Counselor.
+        
+        Aim of the project: To reduce criminal activity in society and make a better future. To provide anonymity to users and help them to at least find a patient listener if not a solution to their problems.`,
+        topic : "Web app development and Mobile Application",
+    },
 ]
