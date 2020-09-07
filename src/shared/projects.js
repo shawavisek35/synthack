@@ -187,7 +187,7 @@ export const GitProjects = [
         To solve this for problem we introduce you "Sathi".  
         
         What is Sathi ?
-         => Sathi will be an onine platform to connect people in need of help with NGOs andverious organisations and other indevesual social workers.
+        => Sathi will be an onine platform to connect people in need of help with NGOs andverious organisations and other indevesual social workers.
         On this platform, people can share their problems anonymously without fear of being judged.
         There will be a multi-level login portal for Users. people who can use the forum to share problems anonymously NGOs Psychiatrist/Other Counsellor.
         
