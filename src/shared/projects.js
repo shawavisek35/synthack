@@ -82,7 +82,7 @@ export const GitProjects = [
     {
         id : 11,
         projectLink : "https://github.com/subhayu99/PyScripts",
-        description : `A collection of some great Python scripts from basic to advance levels for automating some tasks. This project is for those who learn how to contribute an open source contest like Synthax`,
+        description : `A collection of some great Python scripts from basic to advance levels for automating some monotonous tasks. This project is for those who have no idea of Open Source contribution but want to get involved in it with Synthax.`,
         topic : "Python, Scripts, Game Development, Web Scraping",
     },
     {
