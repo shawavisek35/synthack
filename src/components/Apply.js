@@ -8,19 +8,18 @@ const Apply = () => {
       </h1>
       <div className="bg-red-600 w-full px-5 py-10 lg:w-3/5 rounded-lg grid grid-rows-2 shadow-lg gap-12 mt-12">
         <a
-          href="https://forms.gle/BWUTatoT57213VDs6"
+          href="#"
           className="bg-white rounded shadow-xl text-center py-3 text-4xl border border-transparent hover:border-4 hover:border-white hover:bg-red-600 hover:text-white cursor-pointer"
         >
-          <h1>Submit you Project</h1>
+          <h1>Submit you Project [Closed]</h1>
         </a>
-        
-          <a
+
+        <a
           href="https://forms.gle/mYZXAnxuoWxHVNHH6"
           className="bg-white rounded shadow-xl text-center py-3 text-4xl border border-transparent hover:border-4 hover:border-white hover:bg-red-600 hover:text-white cursor-pointer"
-          > 
+        >
           <h1>Students Application</h1>
-          </a>
-
+        </a>
       </div>
     </div>
   );
