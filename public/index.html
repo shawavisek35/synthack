@@ -8,14 +8,14 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Synthax - v1.0. Code to repeat."
     />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Kumbh+Sans&display=swap" rel="stylesheet">
     
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -32,5 +32,21 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+      var myRadios = document.getElementsByName('tabs2');
+      var setCheck;
+      var x = 0;
+      for(x = 0; x < myRadios.length; x++){
+          myRadios[x].onclick = function(){
+              if(setCheck != this){
+                   setCheck = this;
+              }else{
+                  this.checked = false;
+                  setCheck = null;
+          }
+          };
+      }
+   </script>
+
   </body>
 </html>
