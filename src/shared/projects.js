@@ -45,12 +45,12 @@ export const GitProjects = [
         description : `This is a webapp I built usig Flask for a hackathon .I have coded the framework and backend myself .This project to aid farmers and warn them incase of locust attacks.`,
         topic : "Web dev,Python,HTML,CSS.JS,Heroku,Flask",
     },
-    {
-        id : 7,
-        projectLink : "https://github.com/avinashkranjan/Amazing-Python-Scripts",
-        description : `A curated collection of amazing Python scripts from basic to advance with automation task scripts. This is the project from which you can learn how to contribute a open source contest and specially during in Open source contest as a Pythoneer.`,
-        topic : "Python-Scripts",
-    },
+    // {
+    //     id : 7,
+    //     projectLink : "https://github.com/avinashkranjan/Amazing-Python-Scripts",
+    //     description : `A curated collection of amazing Python scripts from basic to advance with automation task scripts. This is the project from which you can learn how to contribute a open source contest and specially during in Open source contest as a Pythoneer.`,
+    //     topic : "Python-Scripts",
+    // },
     {
         id : 8,
         projectLink : "https://github.com/avinashkranjan/Mask-Detector",
