@@ -12,9 +12,9 @@ export const Timelines = [
     time: "7th Sept",
   },
   {
-    status: "Register",
+    status: "Closed",
     name: "Student Application",
-    link: "https://forms.gle/mYZXAnxuoWxHVNHH6",
+    link: "",
     time: "7th Sept - 10th Sept",
   },
   {
