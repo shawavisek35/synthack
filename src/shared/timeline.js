@@ -18,7 +18,7 @@ export const Timelines = [
     time: "7th Sept - 10th Sept",
   },
   {
-    status: "Coming soon",
+    status: "Started",
     name: "Coding Period",
     link: "",
     time: "12th Sept - 30th Sept",
