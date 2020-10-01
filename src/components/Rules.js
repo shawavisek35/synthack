@@ -25,6 +25,8 @@ const rules = [
   "Please note, applications sent after the deadline cannot be considered for judging.",
   "More than one Proposal as a student is not allowed. But you can definitely submit multiple projects.",
   "If more than one proposal is given then only the first one will be taken under consideration.",
+  "If more than two students apply for a single project, then first two people to apply will be selected, rest needs to switch to some other.",
+  "The switch to other project will be made based on students reply to 'Your areas of interest' in the application form.",
   "Before start of the coding session, if you wish to discuss with Project Mentors then create a Issue and discuss.",
   "After the conclusion of the event on 30th September the review of the mentors would be taken into consideration by the organizing team for the final evaluation of the participants and the result would be declared by 2nd October.",
   "We will use Discord as a Medium for communication between mentors, students and organisers. No other medium will be considered a official. And we discourage any other medium for communication.",
