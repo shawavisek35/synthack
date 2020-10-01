@@ -69,11 +69,6 @@ Thanks goes to these wonderful people who mentored the :
               </sub>
           </a>
       </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
       <td align="center">
           <a href="https://github.com/pritikmshaw">
               <img src="https://avatars3.githubusercontent.com/u/63417428?s=400&u=e17ba5501ab0ee9edbe864ab48eb1e4905815cd3&v=4" width="100px;" alt=""/><br />
@@ -86,4 +81,5 @@ Thanks goes to these wonderful people who mentored the :
       </td>
   </tr>
 </table>
+
 
