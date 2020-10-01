@@ -16,11 +16,11 @@ This is the official website of Synthax- A coding Event specially designed for C
 
 Improvements and modifications are welcome.
 
-# Technology Stack Used
+# Technology Stack Used:-
     1.React JS,
     2.TailWind CSS
 
-# Mentor
+# Mentor:-
 
 Thanks goes to these wonderful people who mentored the :
 
@@ -36,7 +36,7 @@ Thanks goes to these wonderful people who mentored the :
               <img src="https://avatars3.githubusercontent.com/u/36898274?s=400&u=938aced314a039925c43c0e3e15344d9dc963ac1&v=4" width="100px;" alt=""/><br />
               <sub>
                   <b>
-                      Sagnik Chattopadhyaya
+                      <strong>Sagnik Chattopadhyaya</strong>
                   </b>
               </sub>
           </a>
@@ -46,7 +46,7 @@ Thanks goes to these wonderful people who mentored the :
               <img src="https://avatars0.githubusercontent.com/u/56290578?s=460&u=b767f8396a3a2b2b14b0a65097944fe2709be5c9&v=4" width="100px;" alt="" /><br />
               <sub>
                   <b>
-                      Avisek Shaw
+                      <strong>Avisek Shaw</strong>
                   </b>
               </sub>
           </a>
@@ -64,7 +64,7 @@ Thanks goes to these wonderful people who mentored the :
               <img src="https://avatars3.githubusercontent.com/u/56292303?s=460&u=fb853b0d8e4964e7e04be2f8b90931eae5c323e4&v=4" width="100px;" alt=""/><br />
               <sub>
                   <b>
-                      Madhurima Maji
+                      <strong>Madhurima Maji</strong>
                   </b>
               </sub>
           </a>
@@ -79,7 +79,7 @@ Thanks goes to these wonderful people who mentored the :
               <img src="https://avatars3.githubusercontent.com/u/63417428?s=400&u=e17ba5501ab0ee9edbe864ab48eb1e4905815cd3&v=4" width="100px;" alt=""/><br />
               <sub>
                   <b>
-                      Priti Km. Shaw
+                      <strong>Priti Km. Shaw</strong>
                   </b>
               </sub>
           </a>
