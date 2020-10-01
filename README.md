@@ -90,6 +90,16 @@ Thanks goes to these wonderful people who mentored the :
               </sub>
           </a>
       </td>
+      <td align="center">
+          <a href="https://github.com/DeepNinja07x">
+              <img src="https://avatars0.githubusercontent.com/u/52314477?s=400&u=1887ecc3afa1e867af50336a3af7ed56b21dc604&v=4" width="100px;" alt=""/><br />
+              <sub>
+                  <b>
+                      <strong>Deepraj Rakshit</strong>
+                  </b>
+              </sub>
+          </a>
+      </td>
   </tr>
 </table>
 
