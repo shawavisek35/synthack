@@ -13,20 +13,20 @@ export const Timelines = [
   },
   {
     status: "Closed",
-    name: "Student Application",
+    name: "Student Application [Closed]",
     link: "",
     time: "7th Sept - 10th Sept",
   },
   {
-    status: "Closed",
-    name: "Coding Period",
+    status: "Over",
+    name: "Coding Period [Over]",
     link: "",
     time: "12th Sept - 30th Sept",
   },
   {
-    status: "Coming soon",
-    name: "Results",
-    link: "",
+    status: "Check",
+    name: "Results [Out Now]",
+    link: "Result",
     time: "1st Oct - 2nd Oct",
   },
 ];

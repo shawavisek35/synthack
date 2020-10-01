@@ -62,17 +62,6 @@ const Navbar = () => {
             </NavLink>
           ))}
         </div>
-        <div>
-          <Link
-            to="/apply"
-            onClick={() => {
-              setToggle(false);
-            }}
-            className="animate-bounce inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-600 hover:bg-white mt-4 lg:mt-0"
-          >
-            Apply Now!
-          </Link>
-        </div>
       </div>
     </nav>
   );
@@ -85,5 +74,6 @@ const NavLinks = [
   { path: "/rules", name: "Rules" },
   { path: "/faq", name: "FAQ" },
   { path: "/team", name: "Team" },
-  { path: "/projects", name: "Projects"}
+  { path: "/projects", name: "Projects" },
+  { path: "/result", name: "Result" },
 ];
