@@ -61,6 +61,10 @@ Thanks goes to these wonderful people who mentored the :
               </sub>
           </a>
       </td>
+      <td align="center">                                                   <a href="http://www.subhayu.me/">                                     <img src="https://avatars3.githubusercontent.com/u/38143013?s=400&u=28405ea45018cee30268bd61408515033741e87e&v=4" width="100px;" alt=""/><br />                                                       <sub>
+                  <b>                                                                   <strong>Subhayu Kumar Bala</strong>                           </b>
+              </sub>
+          </a>                                                          </td>
   </tr>
 </table>
 
