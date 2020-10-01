@@ -56,19 +56,19 @@ Thanks goes to these wonderful people who mentored the :
 
 # Participants
 
-<!-- 
+
 <table>
   <tr>
       <td align="center">
-          <a href="soem link">
-              <img src="https://avatars3.githubusercontent.com/u/36898274?s=400&u=938aced314a039925c43c0e3e15344d9dc963ac1&v=4" width="100px;" alt=""/><br />
+          <a href="https://github.com/madhurima99">
+              <img src="https://avatars3.githubusercontent.com/u/56292303?s=460&u=fb853b0d8e4964e7e04be2f8b90931eae5c323e4&v=4" width="100px;" alt=""/><br />
               <sub>
                   <b>
-                      Participant name
+                      Madhurima Maji
                   </b>
               </sub>
           </a>
       </td>
   </tr>
 </table>
--->
+

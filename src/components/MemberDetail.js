@@ -4,8 +4,7 @@ const teamMembers = [
     img: "sagnik",
     name: "Sagnik Chattopadhyaya",
     role: "Microsoft Learn Student Ambassador at CIEM, Kolkata.",
-    into:
-      `I'm enthusiastic about coding and trying to automate my life 1% at a time.\
+    into: `I'm enthusiastic about coding and trying to automate my life 1% at a time.\
       I plan on integrating ML, Web and AI in the future for the betterment of mankind.`,
   },
   {
@@ -22,8 +21,7 @@ const teamMembers = [
     img: "hasibul",
     name: "Hasibul Islam",
     role: "Microsoft Learn Student Ambassador at CIEM, Kolkata.",
-    into:
-      `I'm still a learner and exploring different technological fields everyday.\
+    into: `I'm still a learner and exploring different technological fields everyday.\
         Loves to code in Java and interested in AI and Web Development.`,
   },
 
@@ -44,7 +42,7 @@ const teamMembers = [
     into:
       "ML enthusiast. REACT in practice. Competitive programmer. Looking for opportunities to do better for the society and upgrade myself.",
   },
-    {
+  {
     plink: "#",
     img: "sristi",
     name: "Sristi Dakshit",
