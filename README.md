@@ -51,6 +51,16 @@ Thanks goes to these wonderful people who mentored the :
               </sub>
           </a>
       </td>
+      <td align="center">
+          <a href="https://archanghoshdev.netlify.app/">
+              <img src="https://avatars2.githubusercontent.com/u/14181922?s=460&u=e7e55d9253473d2ede3c5356d5062de8d2baf7b3&v=4" width="100px;" alt="" /><br />
+              <sub>
+                  <b>
+                      Archan Ghosh
+                  </b>
+              </sub>
+          </a>
+      </td>
   </tr>
 </table>
 
