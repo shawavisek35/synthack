@@ -28,8 +28,15 @@ Thanks goes to these wonderful people who mentored the :
               </sub>
           </a>
       </td>
-      <td>
-          <!--Add yours here -->
+      <td align="center">
+          <a href="https://avisekcode.netlify.app">
+              <img src="https://avatars0.githubusercontent.com/u/56290578?s=460&u=b767f8396a3a2b2b14b0a65097944fe2709be5c9&v=4" width="100px;" alt="" /><br />
+              <sub>
+                  <b>
+                      Avisek Shaw
+                  </b>
+              </sub>
+          </a>
       </td>
   </tr>
 </table>
