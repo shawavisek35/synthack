@@ -110,6 +110,16 @@ Thanks goes to these wonderful people who mentored the :
               </sub>
           </a>
       </td>
+	 <td align="center">
+          <a href="https://github.com/rinz03">
+              <img src="https://avatars3.githubusercontent.com/u/70910886? s=400&u=71732088d79a821d52c40ee84c24a7d4589e1d05&v=4" width="100px;"  alt=""/><br />
+              <sub>
+                  <b>
+                      <strong>Rinika Laha</strong>
+                  </b>
+              </sub>
+          </a>
+      </td>
   </tr>
 </table>
 
