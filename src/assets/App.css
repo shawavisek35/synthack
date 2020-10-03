@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 body {
   background-color: #ffffff;
@@ -87,4 +88,17 @@ body {
   .project-name{
     text-transform: uppercase;
     font-family: "Kumbh Sans", sans-serif;
+  }
+
+  .congrats {
+    font-family : "Caveat", cursive;
+    font-size : 25px;
+    letter-spacing: 1px; 
+  }
+
+  .congrats-code {
+    font-family : "Caveat", cursive;
+    font-size : 25px;
+    letter-spacing: 1px; 
+    margin-bottom: 30px;
   }

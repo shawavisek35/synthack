@@ -10,6 +10,8 @@ const Team = () => {
       >
         Winners 🏆
       </h1>
+      <p className="congrats">Congratulations 🥳🥳 to all the winnwers. All the participants will get their certificate in their respective mail address.</p>
+      <p className="congrats-code">Happy coding 👨‍💻👨‍💻</p>
       {result.map((i) => (
         <div
           className="grid grid-cols-1 sm:grid-cols-2 px-10 text-center"
@@ -39,12 +41,12 @@ const Team = () => {
             <br />
             <div className="animate-bounce inline-block text-sm px-4 py-2 leading-none hover:border-transparent hover:text-red-600 mt-4 lg:mt-0">
               <br />
-              <a
+              {/* <a
                 href={i.plink}
                 class="px-4 py-2 bg-green-500 text-white rounded-full"
               >
                 Get Certificate
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
