@@ -120,6 +120,16 @@ Thanks goes to these wonderful people who mentored the :
               </sub>
           </a>
       </td>
+	   <td align="center">
+          <a href="https://github.com/Arnab9674">
+              <img src="https://github.com/Arnab9674.png" width="100px;"  alt=""/><br />
+              <sub>
+                  <b>
+                      <strong>Arnab Mandal</strong>
+                  </b>
+              </sub>
+          </a>
+      </td>
   </tr>
 </table>
 
