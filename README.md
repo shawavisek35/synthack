@@ -133,4 +133,7 @@ Thanks goes to these wonderful people who mentored the :
   </tr>
 </table>
 
-
+# Snap shots
+![synthax1](https://user-images.githubusercontent.com/56290578/126107694-fbf2e224-0ae2-4277-a47b-eae17130baff.PNG)
+![synthax2](https://user-images.githubusercontent.com/56290578/126107707-162e15b8-fd45-48d5-8ecb-df9a0e14c188.PNG)
+![synthax3](https://user-images.githubusercontent.com/56290578/126107709-6246f087-b36b-480c-9199-7859b23b91f7.PNG)
